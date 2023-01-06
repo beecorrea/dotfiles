@@ -1,0 +1,13 @@
+# Fresh should always come first
+source ~/.fresh/build/shell.sh
+
+source "/Users/bianca/projects/miranda/_miranda"
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
+
+eval "$(direnv hook zsh)"
+eval "$(fnm env --use-on-cd)"
+eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"

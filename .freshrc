@@ -1,0 +1,33 @@
+# freshshell.com
+#
+# Examples:
+#
+#   fresh twe4ked/dotfiles shell/functions/\*
+#   fresh jasoncodes/dotfiles shell/aliases/rails.sh
+#   fresh jasoncodes/dotfiles config/tmux.conf --file
+#
+# See http://freshshell.com/readme for documentation.
+
+fresh freshshell/fresh bin/fresh --bin
+
+fresh zsh/init --marker --file=~/.zshrc
+
+fresh zsh/envs/configs --marker --file=~/.zshrc
+
+fresh zsh/envs/path --marker --file=~/.zshrc
+
+fresh zsh/aliases/init --marker --file=~/.zshrc
+
+fresh zsh/aliases/k8s --marker --file=~/.zshrc
+
+fresh zsh/aliases/terminal --marker --file=~/.zshrc
+
+fresh zsh/aliases/terraform --marker --file=~/.zshrc
+
+fresh zsh/zplug/init --marker --file=~/.zshrc
+
+fresh zsh/zplug/plugins --marker --file=~/.zshrc
+
+fresh zsh/zplug/install --marker --file=~/.zshrc
+
+fresh zsh/functions/include --marker --file=~/.zshrc

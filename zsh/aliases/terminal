@@ -1,0 +1,3 @@
+alias starsh="code ~/.config/starship.toml"
+alias zshrc="code ~/.dotfiles"
+alias sz="fresh update && source ~/.zshrc"

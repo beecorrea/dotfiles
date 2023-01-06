@@ -1,0 +1,2 @@
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="$PATH:/Users/bianca/projects/miranda/"
