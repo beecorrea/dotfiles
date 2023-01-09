@@ -1,3 +1,4 @@
 export MIRANDA_OP_VAULT="isaac"
 export KUBECONFIG="$HOME/.kube/config:gke:kind"
 export KUBE_EDITOR="code"
+export HOMEBREW_NO_AUTO_UPDATE=1
